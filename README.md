@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Perl when using foreach loops to iterate over arrays.  The error occurs because the loop condition `0..$#array` iterates one element beyond the valid index range. The solution demonstrates how to avoid this error.
